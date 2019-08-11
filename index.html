@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>drum-kit</title>
+
+    <link rel="stylesheet" href="./resources/style.css">
+  </head>
+
+  <body>
+    <div class="audiophone">
+
+      <div class="call">X</div>
+      <div id="88" class="call call-shadow">X</div>
+
+      <div class="reset">C</div>
+      <div id="67" class="reset reset-shadow">C</div>
+
+      <input type="text" name="" value="43511">
+
+      <div class="numbers">
+
+        <div class="cell">1</div>
+        <div class="cell">2</div>
+        <div class="cell">3</div>
+        <div class="cell">4</div>
+        <div class="cell">5</div>
+        <div class="cell">6</div>
+        <div class="cell">7</div>
+        <div class="cell">8</div>
+        <div class="cell">9</div>
+
+      </div>
+
+      <div class="numbers numbers-shadow">
+
+        <div id="49" class="cell cell-shadow">1</div>
+        <div id="50" class="cell cell-shadow">2</div>
+        <div id="51" class="cell cell-shadow">3</div>
+        <div id="52" class="cell cell-shadow">4</div>
+        <div id="53" class="cell cell-shadow">5</div>
+        <div id="54" class="cell cell-shadow">6</div>
+        <div id="55" class="cell cell-shadow">7</div>
+        <div id="56" class="cell cell-shadow">8</div>
+        <div id="57" class="cell cell-shadow">9</div>
+
+      </div>
+
+      <p>c - erase input field </p>
+      <p>x - call to </p>
+      <p>use keys on keyboard 1 ... 9</p>
+
+    </div>
+
+    <audio data-key="49" src="./resources/audio/key-press.mp3"></audio>
+    <audio data-key="50" src="./resources/audio/key-press.mp3"></audio>
+    <audio data-key="51" src="./resources/audio/key-press.mp3"></audio>
+    <audio data-key="52" src="./resources/audio/key-press.mp3"></audio>
+    <audio data-key="53" src="./resources/audio/key-press.mp3"></audio>
+    <audio data-key="54" src="./resources/audio/key-press.mp3"></audio>
+    <audio data-key="55" src="./resources/audio/key-press.mp3"></audio>
+    <audio data-key="56" src="./resources/audio/key-press.mp3"></audio>
+    <audio data-key="57" src="./resources/audio/key-press.mp3"></audio>
+
+    <audio data-key="67" src="./resources/audio/cut.mp3"></audio>
+    <audio data-key="88" src="./resources/audio/phone-call.mp3"></audio>
+
+  </body>
+
+  <script src="./resources/script.js" type="text/javascript"></script>
+</html>
